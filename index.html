@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-        <title>Proyecto_MDHL</title>   
-    </head>
-    <body>
-        <!--Introduccion al sitio-->
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto_MDHL</title>
+    <link rel="icon" href="./assets/img/dibujos-de-minion-paso-13.ico">
+    <link rel="stylesheet" href="./assets/style/style.css">
+  </head>
+  <body>
     <header>
-        <h1>Mighty Ducks Hockey League</h1>
-        <img src="./assets/img/Logo_Mighty_ducks-01.png" alt="Logo_Mighty">  
-      </header>
-      <!--contenidos de link-->
-      <nav>
-         <div>
-          <a href="#">HOME |</a>
-          <a href="./pages/about.html">ABOUT_MDLH |</a>
-          <a href="./pages/contact.html">CONTACT</a>
-      </div> 
-      </nav>
-    <!-- contenido principal -->
+      <h1 class="principalTitle">Mighty Ducks Hockey League</h1>
+    </header>
+    <nav class="navegation">
+      <a href="#">HOME</a>
+      <a href="./pages/about.html">ABOUT_MDLH</a>
+      <a href="./pages/rules.html">RULES</a>
+      <a href="./pages/gameInformation.html">GAME INFORMATION</a>
+      <a href="./pages/contact.html">CONTACT</a>
+    </nav>
     <main>
-        <img src="./assets/img/hockey_1.jpg" alt="HOCKEY">
+      <section class="principalContent">
+        <h2 class="h2title">Upcoming Events</h2>
 
-    <!-- segmenta información -->
-    <section>
-        <h2>Upcoming Events</h2>
-    <!-- contenedor de artículos -->
-        <article>
-            <h3>August 4</h3>
-            <p>MDSL Fundraiser</p>
-        </article>
-        <article>
-            <h3>August 16</h3>                        
-            <p>Season Kick-off: Meet the Teams</p>
-        </article>
-        <article>
-            <h3>September 1</h3>
-            <p>First Game of the Season (Check Game Schedule for details)</p> 
-        </article>
-    </section>                    
-    </main>                     
-    </body>
+        <div class="imagesAndArticlesContent">
+          <div class="imagensHockey">
+            <img
+              src="./assets/img/Logo_Mighty_ducks-01.png"
+              alt="Logo_Mighty">
+            <img src="./assets/img/hockey_1.jpg" alt="HOCKEY">
+          </div>
+
+          <div class="articlesHockey">
+            <article>
+              <h3>August 4</h3>
+              <p>MDSL Fundraiser</p>
+            </article>
+            <article>
+              <h3>August 16</h3>
+              <p>Season Kick-off: Meet the Teams</p>
+            </article>
+            <article>
+              <h3>September 1</h3>
+              <p>First Game of the Season (Check Game Schedule for details)</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
