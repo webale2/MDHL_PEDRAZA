@@ -105,3 +105,95 @@ a:hover {
 width: 300px;
 height: 300px;
 }
+
+.listWithNumbers{
+  list-style-type: decimal;
+}
+
+.listWithLetters{
+  list-style-type: lower-alpha;
+}
+
+.listWithCircles{
+  list-style-type: lower-alpha;
+}
+
+/*.listWithNoneStyle{
+  list-style: none;
+}*/
+
+span{
+  font-weight: bold;
+}
+
+.rulesSection{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.rulesSection>article{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.rulesSection>article>ul{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.subtitleContent {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: rgba(243, 243, 240, 0.37);
+  border: 1px solid rgba(5, 5, 5, 0.267);
+}
+.table-striped > tbody > tr:nth-child(even) > td,
+.table-striped > tbody > tr:nth-child(even) > th {
+  background-color: #cccccc73;
+  border: 1px solid rgba(5, 5, 5, 0.267);
+}
+.table-striped > thead > tr > th {
+  background-color: #a5a4a48a;
+  border: 1px solid #a5a4a4;
+  padding: 4px 0px;
+}
+
+th,
+td{
+    font-size: 16px;
+    padding: 4px 0;
+}
+
+tr {
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+.finalDataContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.underline {
+  text-decoration: underline;
+}

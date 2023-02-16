@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto_MDHL</title>
+        <link rel="icon" href="../assets/img/dibujos-de-minion-paso-13.ico">
+        <link rel="stylesheet" href="../assets/style/style.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="principalTitle">Mighty Ducks Hockey League</h1>
+        </header>
+            <nav class="navegation">
+                <a href="../index.html">HOME</a>
+                <a href="./about.html">ABOUT_MDLH</a>
+                <a href="./rules.html">RULES</a>
+                <a href="./gameInformation.html">GAME INFORMATION</a>
+                <a href="#">FORM</a>
+                <a href="./contact.html">Registration Form</a>
+            </nav>
+        <section class="principalContent">
+            <h2 class="h2title">Registration Form</h2>  
+           <!-- <div class="imagesAndArticlesContent">
+            <div class="imagensHockey">
+                <img src="../assets/img/Logo_Mighty_ducks-01.png" alt="Logo_Mighty">
+                <img src="../assets/img/hockey_1.jpg" alt="HOCKEY">
+            </div> -->          
+        </section>
+        <form action="../show_data.html" method="get">             
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="first">First_Name:</label>
+                <input name="name" type="text" id="first" max="25">
+                <label for="last">Last_Name:</label>
+                <input name="last" type="text" id="Last" max="25">
+            </fieldset>             
+                <label>
+                Street Address:
+                <input name="stree" type="text" max="25">
+            </label>
+                <label>
+                    City:
+                    <input name="city" type="text">
+                </label>
+                <label>
+                    Zip_Code:
+                    <input name="zip-code" type="number" min="5">
+                </label>            
+            <fieldset>
+                <label>
+                    Birth Date:
+                    <input name="birth_date" type="date">
+                </label>
+                <label>
+                    Gender:
+                    Female
+                    <input type="checkbox" name="female">
+                    Male
+                    <input type="checkbox" name="male">
+                </label>
+            </fieldset>
+            <label>
+                Parent/Guardian:
+                <input name="parter_guardian" type="text" max="25">
+            </label>
+            <fieldset>    
+                <label>
+                    Grade:
+                    <input type="checkbox" name="pre_school">
+                    Pre_school
+                    1st
+                    <input type="checkbox" name="1st">
+                    2nd
+                    <input type="checkbox" name="2nd">
+                    3rd
+                    <input type="checkbox" name="3rd">
+                    4th
+                    <input type="checkbox" name="4th">
+                    5th
+                    <input type="checkbox" name="5th">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>School</legend>
+                which elementary school do you live near?    
+            </fieldset>             
+            <label for="selet">school:</label>
+                <select name="scholl" id="select">
+                <option value="">select a School</option>                       
+                <option value="aj_katzenmaier">AJ Katzenmaier</option>
+                <option value="greenbay">Greenbay</option>
+                <option value="howard_a_yeager">Howard A Yeager</option>
+                <option value="marjorie_p_hart">Marjorie P Hart</option>
+                <option value="north_elementary">North Elementary</option>
+                <option value="south_elementary">South Elementary</option>
+                </select>             
+            <fieldset>
+                <legend>skills</legend>
+                what position(s) do you normally play?(check all that apply)
+            </fieldset>
+                <label>
+                    Forward
+                    <input type="checkbox" name="forward">
+                </label>
+                <label>
+                    Defense
+                    <input type="checkbox" name="defense">
+                </label>
+                <label>
+                    Midflield
+                    <input type="checkbox" name="midflield">
+                </label>
+                <label>
+                    Goalkeeper
+                    <input type="checkbox" name="goalkeeper">
+                </label>                             
+            <fieldset>
+                <legend>Waist</legend>
+                <label>
+                    Youth Small
+                    <input type="radio" name="waist" value="y_small">
+                </label>
+                <label>
+                    Youth Medium 
+                    <input type="radio" name="waist" value="y_medium">
+                </label>
+                
+                <label>
+                    Youth large
+                    <input type="radio" name="waist" value="y_large">
+                </label>
+                
+                <label>
+                    Small
+                    <input type="radio" name="waist" value="s">
+                </label>
+                
+                <label>
+                    Medium
+                    <input type="radio" name="waist" value="m">
+                </label>
+                
+                <label>
+                    Large
+                    <input type="radio" name="waist" value="l">
+                </label>
+                
+                <label>
+                    Extra-Large
+                    <input type="radio" name="waist" value="e_large">
+                </label>
+            </fieldset>           
+            <input type="submit" value="Enviar">
+        </form>
+        <h2>Permission to Play</h2>
+        <p>I, The parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the “League” accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the program and orbeing transported to or from MDHL sponsored activities, which transportation. By signing below, I herebyagree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+        <p>Parent/GuardianSignature:</p>
+
+        <p>Date:</p>    
+    </body>
+</html>
